@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="THIS IS THE TITLE OF THE NEWS"
+    android:textSize="35dp"
+    android:textStyle="bold"
+    android:id="@+id/title"
+    android:textColor="#fc6b03"/>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="231dp"
+        android:src="@drawable/sherlock_bbc_believe_profile_minimalism_101403_1920x1080" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is the main paragraph"
+        android:textColor="#000000"
+        android:id="@+id/maincontent"
+        android:textSize="15dp"/>
+    <TextView   android:id="@+id/help_title_gest"
+        android:text="Crux of the matter"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#000000"
+        android:background="#bcc2bd"
+        android:clickable="true"
+        android:pointerIcon="arrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <!--content to hide/show -->
+    <TextView   android:id="@+id/txt_help_gest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="content1 \n content2 \n"/>
+
+
+
+    <TextView   android:id="@+id/help_title_gest1"
+        android:text="Curopedia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#000000"
+        android:background="#bcc2bd"
+        android:clickable="true"
+        />
+
+    <!--content to hide/show -->
+    <TextView   android:id="@+id/txt_help_gest1"
+        android:text="content1 \n content2 \n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+    <TextView   android:id="@+id/help_title_gest2"
+        android:text="Curated Coverage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#000000"
+        android:background="#bcc2bd"
+        android:clickable="true"
+        />
+
+    <!--content to hide/show -->
+    <TextView   android:id="@+id/txt_help_gest2"
+        android:text="content1 \n content2 \n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+        android:gravity="center_horizontal"
+        android:textSize="15dp"
+        android:text="1/1/2019"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/author"
+        android:gravity="center_horizontal"
+        android:textSize="15dp"
+        android:text="john doe"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/other"
+        android:gravity="center_horizontal"
+        android:textSize="15dp"
+        android:text="art,india"
+        android:layout_marginTop="5dp"/>
+
+
+</LinearLayout>
